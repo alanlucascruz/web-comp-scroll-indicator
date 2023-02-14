@@ -7,14 +7,14 @@ body {
   align-items: center;
   justify-content: center;
   font-family: "Roboto";
-  background-color: #212121;
+  background: #212121;
   overflow-y: hidden;
 }
 .mouse-btn {
   margin: 10px auto;
   width: 40px;
   height: 80px;
-  border: 3px solid rgba(122, 122, 124, 0.918);
+  border: 3px solid #7a7a7c;
   border-radius: 20px;
   display: flex;
 }
@@ -22,11 +22,7 @@ body {
   display: block;
   width: 20px;
   height: 20px;
-  background: linear-gradient(
-    170deg,
-    rgba(122, 122, 124, 0.918),
-    rgb(123, 124, 124)
-  );
+  background: #737375;
   border-radius: 50%;
   margin: auto;
   animation: scrolling 1s linear infinite;
@@ -39,7 +35,6 @@ body {
     opacity: 0;
     transform: translateY(-20px);
   }
-
   100% {
     opacity: 1;
     transform: translateY(20px);
